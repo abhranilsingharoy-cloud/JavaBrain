@@ -1,0 +1,23 @@
+[
+  {
+    "questionText": "What is the chemical symbol for Gold?",
+    "options": ["Au", "Ag", "Fe", "Pb"],
+    "correctAnswerIndex": 0,
+    "category": "Science",
+    "difficultyLevel": 1
+  },
+  {
+    "questionText": "Which planet is known as the Red Planet?",
+    "options": ["Mars", "Venus", "Jupiter", "Saturn"],
+    "correctAnswerIndex": 0,
+    "category": "Science",
+    "difficultyLevel": 1
+  },
+  {
+    "questionText": "In which year did World War II end?",
+    "options": ["1945", "1939", "1941", "1948"],
+    "correctAnswerIndex": 0,
+    "category": "History",
+    "difficultyLevel": 2
+  }
+]
