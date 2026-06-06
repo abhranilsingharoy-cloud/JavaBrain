@@ -1,80 +1,50 @@
-# JavaBrain 🧠
+# JavaBrain AI 🧠✨
 
-A comprehensive, interactive Command-Line Interface (CLI) quiz game built purely in Java. JavaBrain tests your knowledge across various subjects including Science, History, Mathematics, Geography, and Sports.
+Welcome to the future of knowledge testing. **JavaBrain AI** is a state-of-the-art, high-tech web application that elevates the original Java CLI quiz game into a premium, interactive AI-powered experience.
 
-![JavaBrain Banner](https://img.shields.io/badge/Java-1.8+-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen?style=for-the-badge)
-![Contributions](https://img.shields.io/badge/contributions-welcome-orange.svg?style=for-the-badge)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![Framer](https://img.shields.io/badge/Framer-Black?style=for-the-badge&logo=framer&logoColor=blue)
 
-## 📋 Table of Contents
-- [Features](#-features)
-- [Architecture & Design](#-architecture--design)
-- [Getting Started](#-getting-started)
-- [How to Play](#-how-to-play)
-- [Scoring System](#-scoring-system)
-- [Future Enhancements](#-future-enhancements)
+## 🌟 Premium UI/UX Features
+- **Sleek Aesthetic:** Modern dark mode with deep blues, vibrant purples, and stunning glassmorphism effects.
+- **Fluid Animations:** Powered by `framer-motion`, every interaction, transition, and AI generation state feels incredibly alive and responsive.
+- **Dynamic HUD:** Real-time scoring, live timers, and an animated progress bar.
 
-## ✨ Features
-- **Interactive CLI Interface:** Clean, stylized console output with emojis and dynamic progress bars.
-- **Dynamic Scoring:** Points based on question difficulty and speed bonuses for quick responses.
-- **Categorized Questions:** Dive into various categories: Science, History, Mathematics, Geography, and Sports.
-- **Player Statistics:** Tracks correct answers, accuracy, and average response time.
-- **Leaderboard System:** Persistent top-10 high scores saved to local storage.
-- **Performance Ratings:** Awards players with ranks like *Quiz Master* or *Expert* based on accuracy.
+## 🧠 AI-Powered Engine
+- **Dynamic Generation:** Experience the simulation of real-time AI question generation tailored to specific topics like Machine Learning and NLP.
+- **Adaptive Scoring:** Difficulty multipliers and speed bonuses reward accurate and fast thinking.
 
-## 🏗 Architecture & Design
-The application is structured following clean, modular Object-Oriented principles:
-- **`com.quizgame.Main`**: The entry point managing the main menu and game lifecycle.
-- **`com.quizgame.core.QuizManager`**: Handles the core quiz loop, user input, timer mechanisms, and evaluation.
-- **`com.quizgame.features.Leaderboard`**: Manages persistent File I/O for storing and ranking player scores.
-- **`com.quizgame.models.*`**: Contains domain models like `Question` and `Player` for encapsulating state and logic.
-
-*Note: The project leverages pure Java without any external dependencies for simplicity and portability.*
+## 🏗 Architecture
+This repository contains two major components:
+1. **`/webapp` (Frontend Web App):** The modern, React-based Vite application featuring the premium UI/UX.
+2. **`src/` & Java Files (Legacy Backend/CLI):** The original pure Java implementation.
 
 ## 🚀 Getting Started
 
-### Prerequisites
-- Java Development Kit (JDK) 8 or higher
-- Maven (optional, for running via `pom.xml`)
+To run the next-generation web application:
 
-### Installation & Execution
-1. **Clone the repository:**
+1. **Navigate to the webapp directory:**
    ```bash
-   git clone https://github.com/abhranilsingharoy-cloud/JavaBrain.git
-   cd JavaBrain
+   cd webapp
    ```
 
-2. **Compile the source code:**
+2. **Install dependencies:**
    ```bash
-   mkdir out
-   javac -d out $(find src/main/java -name "*.java")
+   npm install
    ```
 
-3. **Run the application:**
+3. **Start the development server:**
    ```bash
-   java -cp out com.quizgame.Main
+   npm run dev
    ```
-
-*(Alternatively, use Maven: `mvn compile exec:java`)*
 
 ## 🎮 How to Play
-1. Launch the application and select **Start New Game** from the main menu.
-2. Enter your name when prompted to register for the leaderboard.
-3. For each question, type the number corresponding to your chosen answer (1-4) and press `Enter`.
-4. Quick answers (under 5 seconds) grant an additional speed bonus!
-5. After the quiz concludes, review your final results, accuracy, and see if you made it to the **Leaderboard**.
-
-## 🏆 Scoring System
-- **★ (Easy):** 10 points
-- **★★ (Medium):** 20 points
-- **★★★ (Hard):** 30 points
-- **⚡ Speed Bonus:** +5 extra points for answering correctly in <5 seconds.
-
-## 🔮 Future Enhancements
-- [ ] **JSON Integration:** Load questions dynamically from the provided `questions.json` file.
-- [ ] **Multiplayer Mode:** Support for local hot-seat multiplayer.
-- [ ] **Category Selection:** Allow players to choose specific subjects to be tested on.
+1. Click **Start Assessment** to trigger the AI engine.
+2. The AI will dynamically generate your first challenge. 
+3. Select your answer before the timer runs out! Fast answers grant speed bonuses.
+4. Review your accuracy and total score on the final assessment screen.
 
 ---
 
-*Built with ❤️ for educational purposes and Java mastery.*
+### Developed by Abhranil Singha Roy
